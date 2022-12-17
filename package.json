@@ -5,8 +5,8 @@
   "author": "Bruno Futema <bruno.futema@outlook.com>",
   "license": "MIT",
   "scripts": {
-    "test": "jest",
-    "test:staged": "jest"
+    "test": "jest --passWithNoTests",
+    "test:staged": "jest --passWithNoTests"
   },
   "devDependencies": {
     "@types/jest": "^29.2.4",
